@@ -50,6 +50,10 @@ color: white;
 font-size: 30px;
 }
 
+form {
+color: black;
+}
+
 .frontPage h2 {
 text-align: center;
 }
