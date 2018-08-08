@@ -1,11 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>{{ title }}</title>
-	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <title>{{ title }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/sf.bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/sf.bootstrap.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/serious.css">
+
+
 </head>
+
+
+
 <body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="/">Serious Face</a>
+	    </div>
+	    <ul class="nav navbar-nav navbar-right">
+	      <!--off this is splash page
+
+	       <li class="active"><a href="#">Home</a></li>
+
+	     -->
+	      <li><a href="about.html">About</a></li>
+	      <li><a href="streams.html">Streams</a></li>
+	      <li><a href="apply">Apply</a></li>
+
+
+	      <!--turned off for now - sign up and log in
+
+	      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	    </ul>
+
+	      -->
+
+	</nav>
+
 	{{{ body }}}
+
+	<footer>
+
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-footer">
+		      <a class="navbar-brand" href="/">Serious Face</a>
+		    </div>
+		    <ul class="nav navbar-nav navbar-right">
+		      <!--off this is splash page
+
+		       <li class="active"><a href="#">Home</a></li>
+
+		     -->
+		      <li><a href="/">About</a></li>
+		      <li><a href="streams.html">Streams</a></li>
+		      <li><a href="apply">Apply</a></li>
+		      <li><a href="https://www.twitch.tv/communities/seriousface"><img src="images/Glitch_White_RGB.png" alt="twitch logo" height="25"></a></li>
+		      <li><a href="https://discord.gg/seriousface"><img src="images/discord-logo.png" alt="discord logo" height="28"></a></li>
+
+
+		      <!--turned off for now - sign up and log in
+
+		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		    </ul>
+
+		      -->
+
+		</nav>
+	</footer>
 </body>
 </html>
