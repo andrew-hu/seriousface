@@ -23,7 +23,7 @@ router.get('/thankyou', function(req, res, next){
 
 // Get Streams page.
 router.get('/streams', function(req, res, next){
-	res.render('streams', {title: 'Thank you for applying!'});
+	res.render('streams', {title: 'Serious Streams'});
 });
 
 // Post Submit page.
