@@ -24,10 +24,12 @@ router.get('/thankyou', function(req, res, next){
 // Post Submit page.
 router.post('/apply/submit', function(req, res, next){
 	var charactername = req.body.charactername;
-	var servername = req.body.servername;
+	var characterrealm = req.body.characterrealm;
+	var raidexperience = req.body.raidexperience;
+	var preferredrole = req.body.preferredrole;
 	var whyjoin = req.body.whyjoin;
 	
-	hook.send('Character Name: \t' +charactername + '\nServer Name:\t\t\t' + servername + '\nWhy Join?:\t\t\t\t' + whyjoin);
+	hook.send('```Character Name: \t' +charactername + '\nServer Name:\t\t' + characterrealm + '\nWhy Join?:\t\t  ' + whyjoin +'\nRaid Experience:\t' + raidexperience + '\nPreferred Role:\t ' + preferredrole + '```');
 
 	res.redirect('/thankyou');
 });
