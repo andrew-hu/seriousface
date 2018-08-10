@@ -34,7 +34,13 @@ router.post('/apply/submit', function(req, res, next){
 	var preferredrole = req.body.preferredrole;
 	var whyjoin = req.body.whyjoin;
 	
-	hook.send('```Character Name: \t' +charactername + '\nServer Name:\t\t' + characterrealm + '\nWhy Join?:\t\t  ' + whyjoin +'\nRaid Experience:\t' + raidexperience + '\nPreferred Role:\t ' + preferredrole + '```');
+	hook.send('```'+
+		'Character Name: \t' + charactername +
+		'\nServer Name:\t\t' + characterrealm +
+		'\nWhy Join?:\t\t  ' + whyjoin +
+		'\nRaid Experience:\t' + raidexperience +
+		'\nPreferred Role:\t ' + preferredrole +
+		'```');
 
 	res.redirect('/thankyou');
 });
