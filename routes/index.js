@@ -21,6 +21,11 @@ router.get('/thankyou', function(req, res, next){
 	res.render('thankyou', {title: 'Thank you for applying!'});
 });
 
+// Get Streams page.
+router.get('/streams', function(req, res, next){
+	res.render('streams', {title: 'Thank you for applying!'});
+});
+
 // Post Submit page.
 router.post('/apply/submit', function(req, res, next){
 	var charactername = req.body.charactername;
