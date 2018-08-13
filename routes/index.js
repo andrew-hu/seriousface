@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
+var fs = require('fs');
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-//Probably should not include the ID and TOKEN here on a public github but oh well...
-const hook = new Discord.WebhookClient('476174292300726273','njPXKclhBKULrEVS4wlFNh-QlpgiQckf9Eem2B4bUtachjlfJxiv8tDPfW0HoNcst3X_');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -34,13 +33,21 @@ router.post('/apply/submit', function(req, res, next){
 	var preferredrole = req.body.preferredrole;
 	var whyjoin = req.body.whyjoin;
 	
-	hook.send('```'+
-		'Character Name: \t' + charactername +
-		'\nServer Name:\t\t' + characterrealm +
-		'\nWhy Join?:\t\t  ' + whyjoin +
-		'\nRaid Experience:\t' + raidexperience +
-		'\nPreferred Role:\t ' + preferredrole +
-		'```');
+	fs.readFile('private/discord_id_token','utf8', function(err,contents){
+		var array = contents.toString().split(',');
+		var discord_id = array[0];
+		var discord_token = array[1];
+		const hook = new Discord.WebhookClient(discord_id,discord_token);
+		hook.send('```'+
+				'Character Name: \t' + charactername +
+				'\nServer Name:\t\t' + characterrealm +
+				'\nWhy Join?:\t\t  ' + whyjoin +
+				'\nRaid Experience:\t' + raidexperience +
+				'\nPreferred Role:\t ' + preferredrole +
+				'```');
+	});
+
+
 
 	res.redirect('/thankyou');
 });
