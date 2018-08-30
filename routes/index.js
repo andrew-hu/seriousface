@@ -27,11 +27,11 @@ router.get('/streams', function(req, res, next){
 
 // Post Submit page.
 router.post('/apply/submit', function(req, res, next){
-	var charactername = req.body.charactername;
-	var characterrealm = req.body.characterrealm;
-	var raidexperience = req.body.raidexperience;
-	var preferredrole = req.body.preferredrole;
-	var whyjoin = req.body.whyjoin;
+	var RealID = req.body.RealID;
+	var WarcraftLogs = req.body.WarcraftLogs;
+	var RaidingExp = req.body.RaidingExp;
+	var SucessfulFeature = req.body.SucessfulFeature;
+	var CharacterSkill = req.body.CharacterSkill;
 	
 	fs.readFile('private/discord_id_token','utf8', function(err,contents){
 		var array = contents.toString().split(',');
@@ -39,11 +39,11 @@ router.post('/apply/submit', function(req, res, next){
 		var discord_token = array[1];
 		const hook = new Discord.WebhookClient(discord_id,discord_token);
 		hook.send('```'+
-				'Character Name: \t' + charactername +
-				'\nServer Name:\t\t' + characterrealm +
-				'\nWhy Join?:\t\t  ' + whyjoin +
-				'\nRaid Experience:\t' + raidexperience +
-				'\nPreferred Role:\t ' + preferredrole +
+				'RealID or Battle Tag: \t\t\t\t\t\t\t\t' + RealID +
+				'\nWarcraftlogs link:\t\t\t\t\t\t\t\t\t' + WarcraftLogs +
+				'\nRaid Experience:\t\t\t\t\t\t\t\t\t  ' + RaidingExp +
+				'\nMost important feature of a sucessful guild:\t\t  ' + SucessfulFeature +
+				'\nOne skill from your WoW Character in real life:\t   ' + CharacterSkill +
 				'```');
 	});
 
