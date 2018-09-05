@@ -139,7 +139,7 @@ text-align: center;
   color: #2574b2;
 }
 .drop {
-  padding-top: 15px;
+	padding-top: 15px;
   padding-bottom: -15px;
 }
 
@@ -202,36 +202,36 @@ body.z-index-reset .videoPane-content,body.z-index-reset-full .videoPane-content
 .VideoTile-right{display:table-cell;vertical-align:middle;height:100%;text-align:right;vertical-align:bottom}
 .VideoTile-title{font-family:"Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;font-weight:700;font-size:1.08rem;line-height:1.5em;color:#fff;text-shadow:0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);line-height:22px}
 .VideoTile-title.zh-cn,.zh-cn .VideoTile-title{font-family:Arial,Helvetica,"å¾®è½¯é›…é»‘","Microsoft YaHei","Hei SC",sans-serif}
-.VideoTile-title.ko-kr,.ko-kr .VideoTile-title{font-family:"Nanum Gothic",Arial,Helvetica,"ë§‘ì € ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ë Œê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë ‹ì›€",Dotum,sans-serif}
+.VideoTile-title.ko-kr,.ko-kr .VideoTile-title{font-family:"Nanum Gothic",Arial,Helvetica,"ë§‘ì€ ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ëŒê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë‹ì›€",Dotum,sans-serif}
 .VideoTile-title.ru-ru,.ru-ru .VideoTile-title{font-family:"Futura Demi","Open Sans",Arial,Helvetica,sans-serif}
-.VideoTile-title.zh-tw,.zh-tw .VideoTile-title{font-family:Arial,Helvetica,"é»‘é«”-ç¹ ","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
+.VideoTile-title.zh-tw,.zh-tw .VideoTile-title{font-family:Arial,Helvetica,"é»‘é«”-ç¹","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
 @media (min-width:720px){.VideoTile-title{font-size:1.224rem}
 }
 @media (min-width:1280px){.VideoTile-title{font-size:1.44rem}
 }
 .VideoTile--link .VideoTile-title{font-family:"Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;font-weight:700;font-size:1.08rem;line-height:1.5em;color:#f8b700;text-shadow:0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);line-height:22px}
 .VideoTile--link .VideoTile-title.zh-cn,.zh-cn .VideoTile--link .VideoTile-title{font-family:Arial,Helvetica,"å¾®è½¯é›…é»‘","Microsoft YaHei","Hei SC",sans-serif}
-.VideoTile--link .VideoTile-title.ko-kr,.ko-kr .VideoTile--link .VideoTile-title{font-family:"Nanum Gothic",Arial,Helvetica,"ë§‘ì € ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ë Œê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë ‹ì›€",Dotum,sans-serif}
+.VideoTile--link .VideoTile-title.ko-kr,.ko-kr .VideoTile--link .VideoTile-title{font-family:"Nanum Gothic",Arial,Helvetica,"ë§‘ì€ ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ëŒê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë‹ì›€",Dotum,sans-serif}
 .VideoTile--link .VideoTile-title.ru-ru,.ru-ru .VideoTile--link .VideoTile-title{font-family:"Futura Demi","Open Sans",Arial,Helvetica,sans-serif}
-.VideoTile--link .VideoTile-title.zh-tw,.zh-tw .VideoTile--link .VideoTile-title{font-family:Arial,Helvetica,"é»‘é«”-ç¹ ","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
+.VideoTile--link .VideoTile-title.zh-tw,.zh-tw .VideoTile--link .VideoTile-title{font-family:Arial,Helvetica,"é»‘é«”-ç¹","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
 @media (min-width:720px){.VideoTile--link .VideoTile-title{font-size:1.224rem}
 }
 @media (min-width:1280px){.VideoTile--link .VideoTile-title{font-size:1.44rem}
 }
 .VideoTile--link:hover .VideoTile-title{font-family:"Semplicita Pro","Open Sans",Arial,Helvetica,sans-serif;font-weight:700;font-size:1.08rem;line-height:1.5em;color:#fff;text-shadow:0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);line-height:22px}
 .VideoTile--link:hover .VideoTile-title.zh-cn,.zh-cn .VideoTile--link:hover .VideoTile-title{font-family:Arial,Helvetica,"å¾®è½¯é›…é»‘","Microsoft YaHei","Hei SC",sans-serif}
-.VideoTile--link:hover .VideoTile-title.ko-kr,.ko-kr .VideoTile--link:hover .VideoTile-title{font-family:"Nanum Gothic",Arial,Helvetica,"ë§‘ì € ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ë Œê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë ‹ì›€",Dotum,sans-serif}
+.VideoTile--link:hover .VideoTile-title.ko-kr,.ko-kr .VideoTile--link:hover .VideoTile-title{font-family:"Nanum Gothic",Arial,Helvetica,"ë§‘ì€ ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ëŒê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë‹ì›€",Dotum,sans-serif}
 .VideoTile--link:hover .VideoTile-title.ru-ru,.ru-ru .VideoTile--link:hover .VideoTile-title{font-family:"Futura Demi","Open Sans",Arial,Helvetica,sans-serif}
-.VideoTile--link:hover .VideoTile-title.zh-tw,.zh-tw .VideoTile--link:hover .VideoTile-title{font-family:Arial,Helvetica,"é»‘é«”-ç¹ ","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
+.VideoTile--link:hover .VideoTile-title.zh-tw,.zh-tw .VideoTile--link:hover .VideoTile-title{font-family:Arial,Helvetica,"é»‘é«”-ç¹","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
 @media (min-width:720px){.VideoTile--link:hover .VideoTile-title{font-size:1.224rem}
 }
 @media (min-width:1280px){.VideoTile--link:hover .VideoTile-title{font-size:1.44rem}
 }
 .VideoTile-subtitle{font-family:"Open Sans",Arial,Helvetica,sans-serif;font-weight:400;font-size:.9rem;line-height:1.5em;color:#cacaca;text-shadow:0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);line-height:22px}
 .VideoTile-subtitle.zh-cn,.zh-cn .VideoTile-subtitle{font-family:Arial,Helvetica,"å¾®è½¯é›…é»‘","Microsoft YaHei","Hei SC",sans-serif}
-.VideoTile-subtitle.ko-kr,.ko-kr .VideoTile-subtitle{font-family:Arial,Helvetica,"ë§‘ì € ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ë Œê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë ‹ì›€",Dotum,sans-serif}
+.VideoTile-subtitle.ko-kr,.ko-kr .VideoTile-subtitle{font-family:Arial,Helvetica,"ë§‘ì€ ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ëŒê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë‹ì›€",Dotum,sans-serif}
 .VideoTile-subtitle.ru-ru,.ru-ru .VideoTile-subtitle{font-family:"Open Sans",Arial,Helvetica,sans-serif}
-.VideoTile-subtitle.zh-tw,.zh-tw .VideoTile-subtitle{font-family:Arial,Helvetica,"é»‘é«”-ç¹ ","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
+.VideoTile-subtitle.zh-tw,.zh-tw .VideoTile-subtitle{font-family:Arial,Helvetica,"é»‘é«”-ç¹","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
 @media (min-width:720px){.VideoTile-subtitle{font-size:1.02rem}
 }
 @media (min-width:1280px){.VideoTile-subtitle{font-size:1.2rem}
@@ -241,18 +241,18 @@ body.z-index-reset .videoPane-content,body.z-index-reset-full .videoPane-content
 .VideoTile-overlay{left:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);position:absolute;top:50%}
 .VideoTile-overlayText{font-family:"Open Sans",Arial,Helvetica,sans-serif;font-weight:400;font-size:2.2395rem;line-height:1.5em;color:#ebdec2;text-shadow:0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);text-align:center}
 .VideoTile-overlayText.zh-cn,.zh-cn .VideoTile-overlayText{font-family:Arial,Helvetica,"å¾®è½¯é›…é»‘","Microsoft YaHei","Hei SC",sans-serif}
-.VideoTile-overlayText.ko-kr,.ko-kr .VideoTile-overlayText{font-family:Arial,Helvetica,"ë§‘ì € ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ë Œê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë ‹ì›€",Dotum,sans-serif}
+.VideoTile-overlayText.ko-kr,.ko-kr .VideoTile-overlayText{font-family:Arial,Helvetica,"ë§‘ì€ ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ëŒê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë‹ì›€",Dotum,sans-serif}
 .VideoTile-overlayText.ru-ru,.ru-ru .VideoTile-overlayText{font-family:"Open Sans",Arial,Helvetica,sans-serif}
-.VideoTile-overlayText.zh-tw,.zh-tw .VideoTile-overlayText{font-family:Arial,Helvetica,"é»‘é«”-ç¹ ","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
+.VideoTile-overlayText.zh-tw,.zh-tw .VideoTile-overlayText{font-family:Arial,Helvetica,"é»‘é«”-ç¹","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
 @media (min-width:720px){.VideoTile-overlayText{font-size:2.5381rem}
 }
 @media (min-width:1280px){.VideoTile-overlayText{font-size:2.986rem}
 }
 .VideoTile-duration{font-family:"Open Sans",Arial,Helvetica,sans-serif;font-weight:400;font-size:.9rem;line-height:1.5em;color:#fff;text-shadow:0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);text-align:center;background-color:#211510;outline:1px solid #504137;padding:5px 10px}
 .VideoTile-duration.zh-cn,.zh-cn .VideoTile-duration{font-family:Arial,Helvetica,"å¾®è½¯é›…é»‘","Microsoft YaHei","Hei SC",sans-serif}
-.VideoTile-duration.ko-kr,.ko-kr .VideoTile-duration{font-family:Arial,Helvetica,"ë§‘ì € ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ë Œê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë ‹ì›€",Dotum,sans-serif}
+.VideoTile-duration.ko-kr,.ko-kr .VideoTile-duration{font-family:Arial,Helvetica,"ë§‘ì€ ê³ ë”•","Malgun Gothic","ì• í”Œì‚°ëŒê³ ë”•ë„¤ì˜¤",AppleSDGothicNeo,"ì• í”Œê³ ë”•",AppleGothic,"ë‹ì›€",Dotum,sans-serif}
 .VideoTile-duration.ru-ru,.ru-ru .VideoTile-duration{font-family:"Open Sans",Arial,Helvetica,sans-serif}
-.VideoTile-duration.zh-tw,.zh-tw .VideoTile-duration{font-family:Arial,Helvetica,"é»‘é«”-ç¹ ","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
+.VideoTile-duration.zh-tw,.zh-tw .VideoTile-duration{font-family:Arial,Helvetica,"é»‘é«”-ç¹","Heiti TC","å¾®è»Ÿæ­£é»‘","Microsoft JhengHei","Tei TC",sans-serif}
 @media (min-width:720px){.VideoTile-duration{font-size:1.02rem}
 }
 @media (min-width:1280px){.VideoTile-duration{font-size:1.2rem}
