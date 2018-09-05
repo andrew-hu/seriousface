@@ -1,80 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{ title }}</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/sf.bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/sf.bootstrap.min.js"></script>
-  <script src="js/awesomplete.js" async></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serious Face</title>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/serious.css">
-  <link rel="stylesheet" href="css/awesomplete.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/serious.css">
 
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
-
-
 <body>
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a class="navbar-brand" href="/">Serious Face</a>
-	    </div>
-	    <ul class="nav navbar-nav navbar-right">
-	      <!--off this is splash page
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="/">Serious Face</a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/about">About</a> </li>
+        <li><a href="/streams">Streams</a> </li>
+        <li><a href="/apply">Apply</a> </li>
+		  </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
 
-	       <li class="active"><a href="#">Home</a></li>
-
-	     -->
-	      <li><a href="about.html">About</a></li>
-	      <li><a href="streams">Streams</a></li>
-	      <li><a href="apply">Apply</a></li>
-
-
-	      <!--turned off for now - sign up and log in
-
-	      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-	      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-	    </ul>
-
-	      -->
-	  </div>
-	</nav>
+<!-- HEADER -->
 
 	{{{ body }}}
 
-	<footer>
+<!-- / HEADER --> 
+<!-- FOOTER -->
 
-		<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
-		    <div class="navbar-footer">
-		      <a class="navbar-brand" href="/">Serious Face</a>
-		    </div>
-		    <ul class="nav navbar-nav navbar-right">
-		      <!--off this is splash page
-
-		       <li class="active"><a href="#">Home</a></li>
-
-		     -->
-		      <li><a href="/">About</a></li>
-		      <li><a href="streams">Streams</a></li>
-		      <li><a href="apply">Apply</a></li>
-		      <li><a href="https://www.twitch.tv/communities/seriousface"><img src="images/Glitch_White_RGB.png" alt="twitch logo" height="25"></a></li>
-		      <li><a href="https://discord.gg/seriousface"><img src="images/discord-logo.png" alt="discord logo" height="28"></a></li>
-
-
-		      <!--turned off for now - sign up and log in
-
-		      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-		      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-		    </ul>
-
-		      -->
-          </div>
-		</nav>
-	</footer>
+<footer class="text-center">
+  <div class="container" style="color: #000">
+	  <div class="row">&nbsp;</div>
+     <div class="row">
+      <div class="container">
+      	<p><a href="https://www.twitch.tv/communities/seriousface" target="_blank"><img src="images/Glitch_White_RGB.png" alt="twitch logo" height="38"></a>&nbsp; &nbsp;&nbsp;<a href="https://discord.gg/seriousface" target="_blank"><img src="images/discord-logo.png" alt="discord logo" height="40"></a></p>
+      </div>
+      <div class="row">&nbsp;</div>
+      <div class="col-xs-12">
+        <p>Copyright © Serious Face. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- / FOOTER --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
