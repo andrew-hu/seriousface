@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 var fs = require('fs');
 
+var Request = require("request");
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -50,6 +52,28 @@ router.post('/apply/submit', function(req, res, next){
 
 
 	res.redirect('/thankyou');
+});
+
+
+// Get Keys page.
+router.get('/keys', function(req, res, next){
+	
+	var my_body = "";
+	Request.get("https://raider.io/api/v1/characters/profile?region=us&realm=proudmoore&name=eclix", (error, response, body) => {
+	    if(error) {
+	        console.dir(error);
+	    }
+
+	    console.dir(JSON.parse(body));
+		my_body += body;
+
+
+	    
+	});
+
+
+	res.render('keys', {title: 'Serious Keys', body: my_body});
+	
 });
 
 module.exports = router;
