@@ -38,13 +38,15 @@ router.post('/apply/submit', function(req, res, next){
 		var discord_id = array[0];
 		var discord_token = array[1];
 		const hook = new Discord.WebhookClient(discord_id,discord_token);
-		hook.send('```'+
-				'RealID or Battle Tag: \t\t\t\t\t\t\t\t' + RealID +
-				'\nWarcraftlogs link:\t\t\t\t\t\t\t\t\t' + WarcraftLogs +
-				'\nRaid Experience:\t\t\t\t\t\t\t\t\t  ' + RaidingExp +
-				'\nMost important feature of a sucessful guild:\t\t  ' + SucessfulFeature +
-				'\nOne skill from your WoW Character in real life:\t   ' + CharacterSkill +
-				'```');
+		hook.send(
+				'=============================================================================\n\n' +
+				'RealID or Battle Tag: ```' + RealID + '```\n' +
+				'Warcraftlogs link: ```' + WarcraftLogs + '```\n' +
+				'Raid Experience: ```' + RaidingExp + '```\n' +
+				'Most important feature of a sucessful guild: ```' + SucessfulFeature + '```\n' +
+				'One skill from your WoW Character in real life: ```' + CharacterSkill + '```' +
+				'\n============================================================================='
+				);
 	});
 
 
