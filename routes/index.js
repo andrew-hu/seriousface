@@ -41,7 +41,7 @@ router.post('/apply/submit', function(req, res, next){
 		hook.send(
 				'=============================================================================\n\n' +
 				'RealID or Battle Tag: ```' + RealID + '```\n' +
-				'Warcraftlogs link: ```' + WarcraftLogs + '```\n' +
+				'Warcraftlogs link: ```' + WarcraftLogs + ' ```\n' +
 				'Raid Experience: ```' + RaidingExp + '```\n' +
 				'Most important feature of a sucessful guild: ```' + SucessfulFeature + '```\n' +
 				'One skill from your WoW Character in real life: ```' + CharacterSkill + '```' +
